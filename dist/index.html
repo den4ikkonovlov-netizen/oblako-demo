@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f8f5ed">
+  <title>Облако — детские праздники в Северодвинске</title>
+  <meta name="description" content="Праздник в студии «Облако»: любимые герои, шоу, мастер-классы и готовые программы. Северодвинск, Железнодорожная, 3А.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/onest-4.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="assets/fonts/onest.css"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="redesign.css?v=3">
+  <link rel="preload" href="assets/celebration-world.png" as="image">
+  <script src="app.js?v=2" defer></script><script src="motion.js?v=2" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#packages">Перейти к программам</a>
+<header class="header">
+  <a class="brand" href="#home" aria-label="Облако — на главную"><svg viewBox="0 0 60 42" aria-hidden="true"><path d="M14 36C-2 36-2 17 11 15C10 2 30-3 36 10C50 4 58 16 53 23C64 36 46 43 38 36Z" fill="currentColor"/></svg><span>облако<small>студия праздников</small></span></a>
+  <nav id="nav" aria-label="Основная навигация"><a href="#packages">Программы</a><a href="#heroes">Герои</a><a href="#studio">Студия</a><a href="#reviews">Отзывы</a></nav>
+  <a class="header-phone" href="tel:+79095515516">+7 909 551-55-16<small>Давайте устроим праздник</small></a>
+  <button class="menu-toggle" aria-controls="nav" aria-expanded="false" aria-label="Открыть меню"><span></span><span></span></button>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="celebration-scene" aria-hidden="true">
+    <div class="scene-landscape"></div>
+    <div class="scene-front"></div>
+    <div class="sky-haze"></div>
+  </div>
+  <div class="hero-copy">
+    <p class="eyebrow">ДЕТСКИЕ ПРАЗДНИКИ · СЕВЕРОДВИНСК</p>
+    <h1><span>Счастье выше</span><span class="cloud-word">облаков.</span></h1>
+    <p class="hero-description">Любимый герой. Самый вкусный торт.<br>И целый день, который принадлежит ребёнку.</p>
+    <div class="hero-actions"><button class="button primary" data-plan>Устроить праздник</button><a class="hero-secondary" href="#packages">Выбрать программу</a></div>
+  </div>
+  <div class="hero-footer"><span>В студии на Железнодорожной, 3А · или у вас</span><a href="#packages"><span class="scroll-mouse" aria-hidden="true"></span> Начинаем с вашей мечты</a></div>
+</section>
+<section class="packages section" id="packages">
+ <div class="section-heading reveal"><div><p class="eyebrow">СОБРАЛИ ВСЁ САМОЕ ЛЮБИМОЕ</p><h2>От маленького облачка<br><span>до большого праздника.</span></h2></div><p class="section-intro">Готовые программы с героем, играми<br>и временем для торта. Выбирайте свою —<br>остальное поможем организовать.</p></div>
+ <nav class="catalog-jump" aria-label="Разделы каталога">
+  <span>Выберите, что ищете</span><div class="catalog-jump-links"><a href="#package-grid">Пакеты праздника</a><a href="#heroes">Персонажи</a><a href="#shows">Шоу и развлечения</a><button type="button" data-detail="rent">Аренда студии</button></div>
+ </nav>
+ <div class="segmented reveal" aria-label="Виды пакетов"><button class="active" data-package-filter="classic" aria-pressed="true">С любимым героем</button><button data-package-filter="special" aria-pressed="false">С опытами и мастер-классом</button></div>
+ <div id="package-grid" class="package-grid"></div>
+ <p class="package-footnote">В каждом пакете: студия, фотозона, игровая зона, сервировка, чай и помощь администратора.<br>Торт и угощения можно обсудить при бронировании.</p>
+</section>
+<section class="heroes-section" id="heroes">
+ <div class="section-heading reveal"><div><p class="eyebrow">ТЕ САМЫЕ, ИЗ ЛЮБИМЫХ ИСТОРИЙ</p><h2>«Мама, он<br><span>правда пришёл!»</span></h2></div><div class="heroes-caption"><p>Настоящие костюмы.<br>И очень настоящие эмоции.</p><div class="slider-controls"><button data-slide="-1" aria-label="Предыдущие герои">‹</button><button data-slide="1" aria-label="Следующие герои">›</button></div></div></div>
+ <div id="hero-track" class="hero-track" tabindex="0" aria-label="Персонажи студии"></div>
+ <div class="hero-track-bottom"><span>Выберите героя — он появится в вашем плане праздника.</span><a class="text-link" href="https://vk.ru/album-216535130_287574215" target="_blank" rel="noopener">Весь альбом героев в ВК</a></div>
+</section>
+<section class="shows section" id="shows">
+ <div class="section-heading reveal"><div><p class="eyebrow">ДОБАВИМ НЕМНОГО «ЕЩЁ!»</p><h2>А потом —<br><span class="coral">полный восторг.</span></h2></div><p class="section-intro">Танцевать в серебряном дожде,<br>строить и рушить башни, играть<br>и пробовать новое. Что выбираем?</p></div>
+ <div class="show-grid" id="show-grid"></div>
+ <div class="custom-note reveal"><div><h3>Есть своя идея?</h3><p>Расскажите, что любит ребёнок. Обсудим программу, героев и детали.</p></div><button class="button dark" data-plan>Обсудить праздник</button></div>
+</section>
+<section class="studio section" id="studio">
+ <div class="studio-copy reveal"><p class="eyebrow">ВАШЕ МЕСТО ДЛЯ ПРАЗДНИКА</p><h2>Можно шуметь.<br>Можно обниматься.<br><span>Можно быть собой.</span></h2><p>В «Облаке» есть место для активных игр, фотозона и стол для праздничного чаепития. А рядом — администратор, который поможет с сервировкой.</p><div class="studio-tags"><span>Игровая зона</span><span>Фотозона</span><span>Чай и посуда</span></div><button class="text-link" data-detail="rent">Аренда студии без программы</button></div>
+ <div class="studio-photos reveal"><button class="studio-photo large" data-photo="party-2" aria-label="Посмотреть фотографию праздника"><img src="assets/party-2.webp" width="1080" height="1441" alt="Дети и аниматоры на празднике в студии Облако" loading="lazy"><span>Вот так у нас бывает</span></button><button class="studio-photo small" data-photo="party-1" aria-label="Посмотреть фотографию с именинницей"><img src="assets/party-1.webp" width="1080" height="1441" alt="Именинница с аниматором Руми в студии Облако" loading="lazy"></button><div class="photo-label">Дни, которые<br>остаются с нами<span>♡</span></div></div>
+</section>
+<section class="reviews section" id="reviews">
+ <div class="section-heading reveal"><div><p class="eyebrow">ПОСЛЕ ТОГО САМОГО ДНЯ</p><h2>Дети просят ещё.<br><span>Родители пишут:</span></h2></div><a class="rating" href="https://vk.ru/reviews-216535130" target="_blank" rel="noopener"><strong>5,0<span>★★★★★</span></strong><span>20 отзывов в сообществе ВК</span></a></div>
+ <div class="review-grid">
+  <article class="review-card reveal"><span class="quote-mark">“</span><p>Праздник прошел замечательно, в восторге и дети и взрослые</p><footer><span class="review-avatar peach">А</span><div><b>Анжелика Ворона</b><small>Отзыв ВКонтакте · 23 марта</small></div></footer></article>
+  <article class="review-card reveal"><span class="quote-mark">“</span><p>В студии тепло, чисто и уютно. Дети и взрослые в восторге!</p><footer><span class="review-avatar blue">Е</span><div><b>Елизавета Тихонова</b><small>Отзыв ВКонтакте · 30 ноября 2024</small></div></footer></article>
+  <article class="review-card reveal"><span class="quote-mark">“</span><p>Дети были в восторге от программы с аниматором.</p><footer><span class="review-avatar yellow">У</span><div><b>Ульяна Сергеевна</b><small>Отзыв ВКонтакте · 22 января</small></div></footer></article>
+ </div><a class="text-link reviews-link" href="https://vk.ru/reviews-216535130" target="_blank" rel="noopener">Читать отзывы целиком</a>
+</section>
+<section class="faq section"><div class="reveal"><p class="eyebrow">НЕМНОГО О ДЕТАЛЯХ</p><h2>Чтобы вам<br><span>было спокойно.</span></h2></div><div class="faq-list reveal"><details><summary>Что входит в стоимость пакета?</summary><p>Аренда студии, программа выбранного пакета, фотозона, игровая зона, сервировка и сопровождение администратора. Для чаепития студия предоставляет воду, чай, кофе, сахар и посуду. Подробный состав каждого варианта открывается по кнопке «Что входит».</p></details><details><summary>Можно провести праздник у нас?</summary><p>Да, студия проводит выездные программы дома, в кафе, школах и детских садах. Место, состав программы и стоимость выезда нужно обсудить с администратором.</p></details><details><summary>Как выбрать героя и программу?</summary><p>Посмотрите персонажей и пакеты на сайте. Добавьте понравившееся в план праздника, укажите возраст ребёнка и желаемую дату. Администратор поможет согласовать героя и свободное время.</p></details><details><summary>Можно арендовать студию без аниматора?</summary><p>Аренда помещения без программы возможна в будние дни. В карточке студии указана стоимость 3 500 ₽. Продолжительность и условия аренды уточните у администратора.</p></details></div></section>
+<section class="contact section" id="contact"><p class="eyebrow reveal">НАЧНЁМ С ВАШЕЙ ИДЕИ</p><h2 class="reveal">Когда у вас<br><span>праздник?</span></h2><p class="reveal">Вы рассказываете о ребёнке.<br>Мы помогаем придумать его лучший день.</p><button class="button primary reveal" data-plan>Давайте планировать </button><div class="contact-details"><a href="tel:+79095515516">+7 909 551-55-16</a><span>Северодвинск<br>Железнодорожная, 3А</span><a href="https://vk.ru/oblako_severodvinsk" target="_blank" rel="noopener">Сообщество ВКонтакте</a></div></section>
+</main>
+<footer class="footer"><a class="brand" href="#home"><span>облако<small>большие детские впечатления</small></span></a><p>Демо-версия сайта для студии «Облако».<br>Сделано Денисом Коноваловым.</p><a href="https://vk.ru/oblako_severodvinsk" target="_blank" rel="noopener">Материалы студии ВКонтакте</a></footer>
+<button class="plan-pill" data-plan hidden><span>Мой праздник</span><b id="plan-count">0</b></button>
+<dialog id="detail-dialog" class="detail-dialog"><button class="close-dialog" aria-label="Закрыть">×</button><div id="detail-content"></div></dialog>
+<dialog id="photo-dialog" class="photo-dialog"><button class="close-dialog" aria-label="Закрыть фотографию">×</button><img id="photo-full" alt="Фотография студии Облако в полном размере"></dialog>
+<dialog id="plan-dialog" class="plan-dialog"><button class="close-dialog" aria-label="Закрыть план праздника">×</button><p class="eyebrow">СОБЕРЁМ ВСЁ ВМЕСТЕ</p><h2>Ваш праздник</h2><p class="plan-lead">Сохраните идеи и подготовьте сообщение администратору.</p><div id="plan-items"></div><p id="plan-total"></p><form id="plan-form"><div class="form-grid"><label>Дата праздника<input type="date" name="date" required></label><label>Возраст ребёнка<select name="age" required><option value="">Выберите</option><option>До 3 лет</option><option>3–5 лет</option><option>6–8 лет</option><option>9–12 лет</option><option>13 лет и старше</option></select></label></div><label>О чём ещё нам нужно знать?<textarea name="notes" rows="3" placeholder="Любимый герой, число гостей, идеи для праздника…" maxlength="1200"></textarea></label><button type="submit" class="button primary">Подготовить сообщение</button></form><div id="request-result" hidden><label>Ваше сообщение<textarea id="request-text" rows="7" readonly></textarea></label><button id="copy-request" class="button dark">Скопировать текст</button><a class="button primary" href="https://vk.ru/im?sel=-216535130" target="_blank" rel="noopener">Открыть сообщения студии</a><p>Скопируйте текст и отправьте его в диалоге. Здесь сообщение автоматически не отправляется.</p></div></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
